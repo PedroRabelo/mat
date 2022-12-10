@@ -6,3 +6,31 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model IndicatorLevel {
+  id         Int      @id @default(autoincrement())
+  date       DateTime
+  price      Float
+  opening    Boolean  @default(false)
+  closure    Boolean  @default(false)
+  v1         Boolean  @default(false)
+  v2         Boolean  @default(false)
+  v3         Boolean  @default(false)
+  volatility Boolean  @default(false)
+
+  @@map("indicator_levels")
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String
+  role  Role
+
+  @@map("users")
+}
+
+enum Role {
+  ADMIN
+  USER
+}
