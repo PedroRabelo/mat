@@ -1,7 +1,6 @@
 import CallToAction from '@/components/CallToAction'
 import FeatureSection from '@/components/FeatureSection'
 import HeroSection from '@/components/HeroSection'
-import { Inter } from 'next/font/google'
 import Head from 'next/head'
 
 export default function Home() {

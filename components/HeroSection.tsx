@@ -8,13 +8,8 @@ export default function HeroSection1() {
         <Image
           src={bgPicture}
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-fill opacity-40"
+          className="absolute inset-0 -z-10 h-full w-full object-fill opacity-30"
         />
-        {/* <img
-          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-          alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover"
-        /> */}
         <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
           <svg
             className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -40,33 +35,26 @@ export default function HeroSection1() {
             </defs>
           </svg>
         </div>
-        <div className="mx-auto max-w-2xl h-5/6 py-16">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-              Announcing our next round of funding.{' '}
-              <a href="#" className="font-semibold text-white">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
-          </div>
+        <div className="mx-auto max-w-3xl h-5/6 py-16">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Data to enrich your online business
+              Explorando o mercado de índice futuro
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+            <p className="mt-6 text-lg leading-8 text-gray-200">
+              Apresentamos um conjunto de indicadores desenvolvidos pela MAT - Market Analytic Trading,
+              e afirmamos, mais está por vir. Cadastra-se e ganhe uma oferta de lançamento irrecusável.
+              É uma maneira de retribuir a confiança de todos que acompanham a nossa jornada desde a sua ideação.
+              E lembrando, há indicadores poderosos em desenvolvimento!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#submit-email"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                className="rounded-md w-96 bg-emerald-700 px-3.5 py-2.5 text-lg font-semibold text-white shadow-sm hover:bg-emerald-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-400"
               >
-                Get started
+                Quero adquirir o MAT
               </a>
-              <a href="#features" className="text-sm font-semibold leading-6 text-white">
-                Learn more <span aria-hidden="true">→</span>
+              <a href="#features" className="text-md font-semibold leading-6 text-white">
+                Saiba mais <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
